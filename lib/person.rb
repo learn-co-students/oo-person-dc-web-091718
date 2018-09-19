@@ -1,5 +1,5 @@
 require 'pry'
-
+#Serpentz 
 class Person
   attr_reader :name, :happiness, :hygiene
   attr_accessor :bank_account
