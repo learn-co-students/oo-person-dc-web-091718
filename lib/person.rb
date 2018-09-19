@@ -68,10 +68,11 @@ class Person
       self.happiness -= 2
       "blah blah partisan blah lobbyist"
     when "weather"
-      person.happiness -= 1
-      self.happiness -= 1
+      person.happiness += 1
+      self.happiness += 1
       return "blah blah sun blah rain"
-
+	 else
+	     "blah blah blah blah blah"
     end
   end
 end
